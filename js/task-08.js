@@ -8,6 +8,6 @@ function OnSubmit(e) {
     email: email.value,
     password: password.value,
   };
-  e.currentTarget.reset();
   console.log(data);
+  e.currentTarget.reset();
 }
